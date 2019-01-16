@@ -487,17 +487,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-qU-d8Z">
-                                        <rect key="frame" x="17" y="568" width="74" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Back"/>
-                                        <connections>
-                                            <segue destination="saY-Ot-ZEx" kind="popoverPresentation" popoverAnchorView="zcA-qU-d8Z" id="0pv-RR-SI8">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzr-ty-Fhc">
                                         <rect key="frame" x="71" y="510" width="214" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -516,6 +505,17 @@
                                         <rect key="frame" x="143" y="407" width="89" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </pageControl>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcA-qU-d8Z">
+                                        <rect key="frame" x="8" y="568" width="74" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Back"/>
+                                        <connections>
+                                            <segue destination="LEC-mY-ftk" kind="popoverPresentation" popoverAnchorView="zcA-qU-d8Z" id="wzd-CA-SIF">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.20085521819999999" green="1" blue="0.51659666670000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <viewLayoutGuide key="safeArea" id="ePI-pd-nHp"/>
@@ -539,6 +539,7 @@
         <image name="img_57e8b34ff32e1" width="523" height="589"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="wzd-CA-SIF"/>
         <segue reference="pTC-RS-dBx"/>
         <segue reference="ar6-Bs-BPy"/>
         <segue reference="xmU-dc-KRQ"/>
